@@ -1,0 +1,54 @@
+body {
+	font-family: 'Lato', sans-serif;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 1.5;
+	color: #424242;
+	/* min-width: 1600px; */
+}
+
+@media (max-width: 991px) {
+	body {
+		font-size: 18px;
+	}
+}
+
+/* Utility */
+
+.none {
+	display: none !important;
+}
+
+.visually-hidden {
+	position: absolute;
+	opacity: 0;
+	visibility: hidden;
+	width: 0;
+	height: 0;
+	display: block;
+	margin-left: -10000px;
+	background: transparent;
+	font-size: 0;
+}
+
+@media (max-width: 1399px) {
+
+}
+
+
+.no-scroll {
+	overflow: hidden;
+}
+
+.element-animation {
+	opacity: 0;
+	transform: translateY(40px);
+}
+
+.element-animation.element-show {
+	opacity: 1;
+	transition: all 1.3s;
+	transform: translateY(0%);
+}
+/* TODO добавить класс .element-animation */
+
