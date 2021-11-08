@@ -4,7 +4,7 @@
 
 p {
     margin-bottom: 0 !important;
-    text-indent: 15px;
+    text-indent: 10px;
 }
 
 
@@ -48,7 +48,7 @@ p {
 }
 
 .title-text p{
-    text-align: center;
+
     font-weight: 500;
     color: black;
 }
@@ -64,7 +64,18 @@ p {
 }
 
 .adress-text {
+    font-size: 30px;
     text-align: center;
+}
+
+.number {
+    text-align: center;
+}
+
+.social {
+    padding-left: 10px;
+    max-width: 50%;
+    height: 35%;
 }
 
 
