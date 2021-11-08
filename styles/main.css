@@ -4,6 +4,7 @@
 
 p {
     margin-bottom: 0 !important;
+    text-indent: 15px;
 }
 
 
@@ -13,8 +14,13 @@ p {
     width: 100%;
     background: url("../img/6.JPG") center no-repeat;
     background-size: cover;
-    opacity: 35%;
+    opacity: 25%;
     z-index: -1;
+}
+
+.all {
+    height: 100vh;
+    width: 100%;
 }
 
 .header {
@@ -37,8 +43,8 @@ p {
 }
 
 .main-text {
+    width: 50%;
 
-    padding: 100px 30px 0;
 }
 
 .title-text p{
@@ -49,13 +55,16 @@ p {
 
 .spam-text p{
     line-height: 1.55;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Didact Gothic', sans-serif;
     color: black;
     font-size: 12px;
-    padding-left: 20px;
     font-weight: 400;
     border-color: transparent;
     border-style: solid;
+}
+
+.adress-text {
+    text-align: center;
 }
 
 
