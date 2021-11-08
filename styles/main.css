@@ -21,6 +21,7 @@ p {
 .all {
     height: 100vh;
     width: 100%;
+
 }
 
 .header {
@@ -73,9 +74,19 @@ p {
 }
 
 .social {
+    position: absolute;
     padding-left: 10px;
     max-width: 50%;
-    height: 35%;
+    left: 20px;
+    bottom: 20px;
+}
+
+.social-item {
+    max-width: 35px;
+}
+
+.social a + a {
+    margin-left: 10px;
 }
 
 
