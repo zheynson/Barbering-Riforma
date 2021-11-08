@@ -24,7 +24,6 @@ p {
 }
 
 .header {
-    position: relative;
 }
 
 .logo-img {
@@ -47,13 +46,14 @@ p {
 
 }
 
-.title-text p{
+.title-text p {
     text-align: center;
     font-weight: 500;
     color: black;
 }
 
-.spam-text p{
+.spam-text p {
+    padding-left: 30px;
     line-height: 1.55;
     font-family: 'Didact Gothic', sans-serif;
     color: black;
@@ -87,8 +87,6 @@ p {
 .social a + a {
     margin-left: 10px;
 }
-
-
 
 
 .yButton {
