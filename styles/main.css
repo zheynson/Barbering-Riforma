@@ -13,8 +13,8 @@
 }
 
 .header {
-    position: relative;
-    z-index: 200;
+
+
 }
 
 .logo-img {
@@ -22,9 +22,6 @@
 }
 
 .instagram {
-    position: absolute;
-    right: 4px;
-    top: 5px;
     max-width: 40px;
 }
 
