@@ -38,6 +38,36 @@ body {
     background-size: cover;
 }
 
+.bg-three:before {
+    z-index:-1;
+    position:absolute;
+    left:0;
+    right: 0;
+    top:0;
+    bottom: 0;
+    background: url('../img/1.JPG') no-repeat center;
+    box-shadow: 0 -63px 32px -30px rgba(255, 255, 255, 1) inset;
+    content: '';
+    opacity:0.3;
+    background-size: cover;
+}
+
+.bg-four:before {
+    z-index:-1;
+    position:absolute;
+    left:0;
+    right: 0;
+    top:0;
+    bottom: 0;
+    background: url('../img/4.JPG') no-repeat center;
+    box-shadow: 0 -63px 32px -30px rgba(255, 255, 255, 1) inset;
+    content: '';
+    opacity:0.3;
+    background-size: cover;
+}
+
+
+
 
 .all {
     position: relative;
@@ -107,7 +137,7 @@ body {
 }
 
 .social a + a {
-    margin-left: 10px;
+    margin-left: 25px;
 }
 
 
@@ -139,6 +169,38 @@ body {
 .price-text {
     padding-top: 50px;
     font-size: 12px;
+}
+
+.services-price {
+    font-weight: 500;
+}
+
+.click-text {
+    font-family: 'Didact Gothic', sans-serif;
+    text-align: center;
+    padding: 0 20px;
+}
+
+.map {
+    border: 1px black solid;
+    height: 502px;
+    width: 362px;
+}
+
+.adress-bottom {
+    background-color: black;
+    color: white;
+    padding: 10px 0;
+}
+
+.time-bottom {
+    font-size: 20px;
+}
+
+.number-bottom {
+    text-decoration: underline;
+    font-size: 30px;
+    padding: 10px 20px;
 }
 
 
