@@ -18,11 +18,24 @@ body {
     top:0;
     bottom: 0;
     background: url('../img/6.JPG') no-repeat center;
-    box-shadow: 0px -63px 32px -30px rgba(255, 255, 255, 1) inset;
+    box-shadow: 0 -63px 32px -30px rgba(255, 255, 255, 1) inset;
     content: '';
     opacity:0.3;
     background-size: cover;
+}
 
+.bg-second:before {
+    z-index:-1;
+    position:absolute;
+    left:0;
+    right: 0;
+    top:0;
+    bottom: 0;
+    background: url('../img/3.JPG') no-repeat center;
+    box-shadow: 0 -63px 32px -30px rgba(255, 255, 255, 1) inset;
+    content: '';
+    opacity:0.3;
+    background-size: cover;
 }
 
 
@@ -63,7 +76,6 @@ body {
 }
 
 .spam-text p {
-
     line-height: 1.55;
     font-family: 'Didact Gothic', sans-serif;
     color: #1f1f1f;
@@ -83,7 +95,7 @@ body {
 }
 
 .social {
-    position: absolute;
+    position: fixed;
     padding-left: 10px;
     max-width: 50%;
     left: 20px;
@@ -91,12 +103,13 @@ body {
 }
 
 .social-item {
-    max-width: 35px;
+    max-width: 20px;
 }
 
 .social a + a {
     margin-left: 10px;
 }
+
 
 
 .yButton {
@@ -106,12 +119,26 @@ body {
 
 .yButtonWave {
     color: black !important;
-    max-width: 50px !important;
-    max-height: 50px !important;
+    max-width: 110px !important;
+    max-height: 110px !important;
 }
 
 .yButtonBackground {
     background-color: black !important;
+}
+
+/*ЦЕНЫ И УСЛУГИ*/
+
+.header-price {
+    text-align: center;
+    padding: 20px 0;
+    color: white;
+    background-color: black;
+}
+
+.price-text {
+    padding-top: 50px;
+    font-size: 12px;
 }
 
 
