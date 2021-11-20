@@ -1,0 +1,40 @@
+@media (min-width: 1000px) {
+    .spam-text {
+        max-width: 600px;
+        font-size: 25px;
+        margin-top: 0;
+    }
+
+    .left {
+        width: 100px !important;
+    }
+
+    .instagram {
+        padding-right: 100px;
+    }
+
+    .instagram img{
+        max-width: 80px;
+    }
+
+    .not-all {
+        height: 100vh;
+    }
+
+    .services-text , .services-price{
+        font-size: 25px;
+        font-weight: 500;
+    }
+
+    .social-item {
+        max-width: 40px;
+    }
+
+    .bottom-text {
+        width: 100%;
+    }
+
+    /*.adress-bottom {*/
+    /*    width: 100%;*/
+    /*}*/
+}
