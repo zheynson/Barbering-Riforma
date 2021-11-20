@@ -190,6 +190,12 @@ body {
     width: 362px;
 }
 
+.map-desk-top {
+    border: 1px black solid;
+    height: 602px;
+    width: 902px;
+}
+
 .adress-bottom {
     background-color: black;
     color: white;
