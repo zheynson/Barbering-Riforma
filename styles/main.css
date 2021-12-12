@@ -1,68 +1,29 @@
 * {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
+
 p {
     margin-bottom: 0 !important;
 }
+
 body {
     position: relative;
 }
-.bg-first:before{
-    z-index:-1;
-    position:absolute;
-    left:0;
-    right: 0;
-    top:0;
-    bottom: 0;
-    background: url('../img/6.JPG') no-repeat center;
-    box-shadow: 0 -63px 32px -30px rgba(255, 255, 255, 1) inset;
-    content: '';
-    opacity:0.3;
-    background-size: cover;
-}
-.bg-second:before {
-    z-index:-1;
-    position:absolute;
-    left:0;
-    right: 0;
-    top:0;
-    bottom: 0;
-    background: url('../img/3.JPG') no-repeat center;
-    box-shadow: 0 -63px 32px -30px rgba(255, 255, 255, 1) inset;
-    content: '';
-    opacity:0.3;
-    background-size: cover;
-}
-.bg-three:before {
-    z-index:-1;
-    position:absolute;
-    left:0;
-    right: 0;
-    top:0;
-    bottom: 0;
-    background: url('../img/1.JPG') no-repeat center;
-    box-shadow: 0 -63px 32px -30px rgba(255, 255, 255, 1) inset;
-    content: '';
-    opacity:0.3;
-    background-size: cover;
-}
-.bg-four:before {
-    z-index:-1;
-    position:absolute;
-    left:0;
-    right: 0;
-    top:0;
-    bottom: 0;
-    background: url('../img/4.JPG') no-repeat center;
-    box-shadow: 0 -63px 32px -30px rgba(255, 255, 255, 1) inset;
-    content: '';
-    opacity:0.3;
-    background-size: cover;
-}
+
 .all {
     position: relative;
     height: 100vh;
     width: 100%;
+}
+
+.all-gal {
+    padding:10px 10px 5px;
+}
+
+.all-price {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 80px;
 }
 
 .not-all {
@@ -78,12 +39,6 @@ body {
     max-width: 70%;
 }
 
-.instagram {
-    max-width: 30px;
-    right: 10px;
-    top: 10px;
-}
-
 .container {
     z-index: 10;
 }
@@ -97,7 +52,21 @@ body {
     font-weight: 600;
     color: #161616;
     font-size: 22px;
-    font-family: 'Cormorant', serif;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.master-text {
+    padding: 20px 10px 0;
+}
+
+.master .main-text p {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+.owl-carousel {
+    margin-top: 10px;
 }
 
 .spam-text {
@@ -107,10 +76,10 @@ body {
 
 .spam-text p {
     line-height: 1.55;
-    font-family: 'Cormorant', serif;
+    font-family: 'Montserrat', sans-serif;
     color: #1f1f1f;
     font-size: 19px;
-    font-weight: 900;
+    font-weight: 400;
     border-color: transparent;
     border-style: solid;
 }
@@ -179,7 +148,7 @@ body {
 }
 
 .click-text {
-    font-family: 'Cormorant', serif;
+    font-family: 'Montserrat', sans-serif;
     text-align: center;
     padding: 0 20px;
 }
