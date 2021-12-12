@@ -158,13 +158,11 @@ body {
 }
 
 .map {
-    border: 1px black solid;
     height: 502px;
     width: 362px;
 }
 
 .map-desk-top {
-    border: 1px black solid;
     height: 452px;
     width: 652px;
 }
