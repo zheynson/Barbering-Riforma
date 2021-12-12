@@ -48,6 +48,10 @@ body {
     text-align: center;
 }
 
+.points {
+    width: 50px;
+}
+
 .title-text p{
     font-weight: 600;
     color: #161616;
@@ -129,7 +133,7 @@ body {
 
 .header-price {
     text-align: center;
-    padding: 20px 0;
+    padding: 5px 0;
     color: white;
     background-color: black;
 }
@@ -161,8 +165,8 @@ body {
 
 .map-desk-top {
     border: 1px black solid;
-    height: 602px;
-    width: 902px;
+    height: 452px;
+    width: 652px;
 }
 
 .adress-bottom {
